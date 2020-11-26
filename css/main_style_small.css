@@ -1,0 +1,104 @@
+.m-br {
+    display: block;
+}
+
+.section__visual .main-visual_slogan .pc-slogan,
+.section__visual .set_common .pc-drink {
+    display: none;
+}
+
+
+
+
+/* REWARDS */
+.section__rewards .inner {
+    max-width: none;
+    height: 760px;
+}
+
+.section__rewards .logo img {
+    position: relative;
+    left: 100%;
+    min-width: 124px;
+    width: 165px;
+    height: 143px;
+}
+
+.section__rewards .rewards_cont {
+    width: 370px;
+    margin-top: 60px;
+    position: absolute;
+    top: 180px;
+    left: 65px;
+}
+
+.section__rewards .rewards_cont_txt {
+    text-align: center;
+}
+
+.section__rewards .rewards_cont_Btn {
+    justify-content: center;
+}
+
+.section__rewards .rewards_cont_Btn button {
+    padding: 0 40px;
+}
+
+.section__rewards .rewards_cont_Btn .sign_up {
+    background: #00704a;
+    border: 2px solid #00704a;
+}
+
+.section__rewards .rewards_giftcon {
+    margin-top: 20px;
+    width: 370px;
+    position: absolute;
+    top: 68%;
+    left: 65px;
+}
+
+.section__rewards .rewards_giftcon_txt {
+    text-align: center;
+}
+
+.section__rewards .rewards_cont_txt p {
+    line-height: 1.5;
+}
+
+.section__rewards .rewards_giftcon_Btn {
+    position: relative;
+    left: 55px;
+    padding: 0 65px;
+}
+
+/* XMAS BLEND */
+.section__blend {
+    background: #f8ccd7 url('../img/m_2020_xmas_bean_bg.jpg');
+    background-position: center;
+}
+.section__blend .inner {
+    max-width: none;
+    height: 910px;
+}
+.section__blend .blend-left .pc-blend-left-img{
+    display: none;
+}
+.section__blend .blend-left .m-blend-left-img {
+    display: block;
+}
+
+.section__blend .blend-right {
+    position: absolute;
+    right: 0;
+}
+.section__blend .summary{
+    width: 450px;
+    text-align: center;
+}
+.section__blend .blend-right p:first-child {
+    font-size: 18px;
+}
+
+.section__blend .blend-right .summary-description {
+    font-size: 16px;
+}
