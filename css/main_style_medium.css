@@ -327,7 +327,8 @@ header .menu-txt {
     padding: 30px 40px;
     position: absolute;
     bottom: 15%;
-    right: 39%;
+    left: 50%;
+    margin-left: -95px;
 }
 
 
@@ -350,7 +351,8 @@ header .menu-txt {
     text-align: center;
     position: absolute;
     top: 100%;
-    left: 17%;
+    left: 50%;
+    margin-left: -255px;
 }
 
 .section__favorite .fav-left img {
@@ -358,8 +360,6 @@ header .menu-txt {
 }
 
 .section__favorite .summary {
-    margin-top: 0;
-    color: #f8f8f8;
     width: 500px;
 }
 .section__favorite .summary-description{
@@ -375,22 +375,18 @@ header .menu-txt {
     left: 190px;
 }
 
-.section__favorite .fav-left button:hover {
-    color: #000;
-    background-color: #fff;
-}
-
 .section__favorite .fav-right {
     float: none;
     max-width: 670px;
     position: absolute;
-    left: 7%;
+    margin: 0 auto;
+    left: 0;
 }
 
 /* MAGAZINE */
 .section__magazine .inner {
     max-width: 768px;
-    height: 1670px;
+    height: 1570px;
 }
 
 .section__magazine .magz-right,
@@ -430,10 +426,10 @@ header .menu-txt {
     margin: 0 auto;
 }
 .section__magazine .magz-right p {
-    margin-top: 50px;
     position: relative;
     top: 0;
-    left: 31%;
+    left: 0;
+    margin: 50px auto 100px;
     letter-spacing: 5px;
     width: 260px;
     font-size: 16px;
