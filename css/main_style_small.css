@@ -1,6 +1,3 @@
-.m-br {
-    display: block;
-}
 
 .section__visual .main-visual_slogan .pc-slogan,
 .section__visual .set_common .pc-drink {
@@ -73,7 +70,8 @@
 
 /* XMAS BLEND */
 .section__blend {
-    background: #f8ccd7 url('../img/m_2020_xmas_bean_bg.jpg');
+    background: #f8ccd7 url('../img/m_2020_xmas_bean_bg.jpg') no-repeat;
+    background-size: 100%;
     background-position: center;
 }
 .section__blend .inner {
@@ -84,12 +82,13 @@
     display: none;
 }
 .section__blend .blend-left .m-blend-left-img {
-    display: block;
+    display: inline-block;
+    vertical-align : top;
 }
 
 .section__blend .blend-right {
-    position: absolute;
-    right: 0;
+    float: none;
+    position: relative;
 }
 .section__blend .summary{
     width: 450px;

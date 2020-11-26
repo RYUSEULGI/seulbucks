@@ -8,7 +8,10 @@ a {
     text-decoration: none;
     color: #333;
 }
-
+img{
+    vertical-align: top;
+    max-width: 100%;
+}
 strong {
     font-weight: 700;
 }
@@ -568,11 +571,6 @@ header .menu-txt .inner p {
     position: relative;
 }
 
-.section__prom .prom_slide img {
-    width: 100%;
-    height: 100%;
-}
-
 .section__prom .prom__slide button {
     position: absolute;
     top: 50%;
@@ -745,15 +743,11 @@ header .menu-txt .inner p {
 .section__reserve {
     background: #01221b url('../img/reserve_xmas_bg.jpg') no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .section__reserve .inner {
     height: 365px;
-}
-
-.section__reserve .reserve-ttl img,
-.section__reserve .pc-reserve-img img {
-    width: 100%;
 }
 
 .section__reserve .reserve-ttl {

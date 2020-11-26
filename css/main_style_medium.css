@@ -1,3 +1,8 @@
+/* COMMON */
+.m-br {
+    display: block;
+}
+
 /* HEADER */
 header {
     border-top: none;
@@ -213,15 +218,15 @@ header .menu-txt {
 
 .section__rewards .logo img {
     position: relative;
-    top: 40px;
+    max-width: 100%;
     width: 248px;
     height: 215px;
+    margin: 30px 0;
 }
 
 .section__rewards .rewards_cont {
-    width: 298px;
+    width: 400px;
     position: relative;
-    right: 15%;
     padding-bottom: 20px;
     border-bottom: 1px solid #4b615b;
 }
@@ -233,7 +238,7 @@ header .menu-txt {
 }
 
 .section__rewards .rewards_cont_txt h2 {
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .section__rewards .rewards_cont_txt p:last-child {
@@ -247,10 +252,9 @@ header .menu-txt {
 }
 
 .section__rewards .rewards_giftcon {
-    width: 285px;
+    width: 400px;
     position: relative;
-    left: 21.5%;
-    top: 15%;
+    margin-top: 20px;
 }
 
 .section__rewards .rewards_giftcon_txt {
@@ -266,21 +270,23 @@ header .menu-txt {
 /* XMAS BLEND */
 .section__blend .inner {
     max-width: 768px;
-    height: 573px;
+    height: 500px;
 }
 
 .section__blend .blend-left img {
-    width: 400px;
+    width: 370px;
 }
 
 .section__blend .blend-right {
     position: absolute;
     top: 25%;
-    right: 0;
+    right: -10px;
 }
-.section__blend .summary{
-    width: 350px;
+
+.section__blend .summary {
+    max-width: 425px;
 }
+
 .section__blend .blend-right p:first-child {
     font-size: 16px;
 }
@@ -288,40 +294,32 @@ header .menu-txt {
 .section__blend .blend-right .summary-description {
     font-size: 14px;
 }
+
 /* RESERVE */
-.section__reserve {
-    background-image: none;
-    background-size: none;
-}
-
 .section__reserve .inner {
-    max-width: none;
-    width: 100%;
-    height: auto;
+    float: none;
+    height: 100%;
 }
 
-.section__reserve .reserve-ttl img,
+.section__reserve .reserve-ttl,
 .section__reserve .pc-reserve-img {
     display: none;
 }
 
 .section__reserve .m-reserve-img {
-    position: static;
     display: block;
     width: 100%;
-    height: auto;
 }
 
 .section__reserve button {
-    color: #e3b59e;
-    border: 2px solid #e3b59e;
-    position: absolute;
-    bottom: 15%;
-    right: 40%;
     font-size: 22px;
     line-height: 70px;
     padding: 30px 40px;
+    position: absolute;
+    bottom: 15%;
+    right: 39%;
 }
+
 
 /* FAVORITE */
 .section__favorite {
@@ -329,7 +327,7 @@ header .menu-txt {
     background-size: 100% auto;
     position: relative;
     width: 100%;
-    height: 1130px;
+    height: 1230px;
 }
 
 .section__favorite .inner {
@@ -342,7 +340,7 @@ header .menu-txt {
     text-align: center;
     position: absolute;
     top: 100%;
-    left: 25%;
+    left: 17%;
 }
 
 .section__favorite .fav-left img {
@@ -352,12 +350,19 @@ header .menu-txt {
 .section__favorite .summary {
     margin-top: 0;
     color: #f8f8f8;
+    width: 500px;
+}
+.section__favorite .summary-description{
+    font-size: 20px;
 }
 
+.section__favorite .summary-ttl{
+    font-size: 40px;
+}
 .section__favorite .fav-left button {
     margin-top: 30px;
     position: absolute;
-    left: 135px;
+    left: 190px;
 }
 
 .section__favorite .fav-left button:hover {
@@ -369,7 +374,6 @@ header .menu-txt {
     float: none;
     max-width: 670px;
     position: absolute;
-    top: 20%;
     left: 7%;
 }
 
